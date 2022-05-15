@@ -16,7 +16,7 @@ module.exports = {
       user: 'root',
       host: '192.168.0.163',
       ref: 'origin/master',
-      repo: 'git@github.com:matthewlyons/test-pm2.git',
+      repo: 'https://github.com/matthewlyons/test-pm2.git',
       path: '/var/www/test-pm2',
       'pre-deploy-local': '',
       'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production',
